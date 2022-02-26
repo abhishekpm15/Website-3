@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+*{
+margin: 0;
+padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+}
+.container .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+header::before{
+    background-image: url('cherry.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100vh;
+    z-index: -1;
+    opacity:1;
+}
+
+.navigation{
+    position: sticky;
+    top:0px;
+    left:1px;
+}
+.head2{
+    text-align: center;
+    justify-content: center;
+}
+.navigation ul{
+    display:flex;
+    list-style: none;
+}
+.navigation ul li{
+    margin:0;
+    padding:3px 10px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 25px;
+    border-width: 40px;
+    
+}
+
+
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(233, 221, 221);
+    font-weight:bold;
+}
+
+.navigation ul li a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 0px 0px;  
+    border: aqua;
+}
+
+.head{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-family: 'Courgette', cursive;
+    text-align: center;   
+    font-size: 30px;
+    text-decoration: underline rgb(39, 42, 221);
+}
+
+@media screen and (min-width: 380px) {
+    .box1 { position: relative;
+        width:200px;
+        height:250px;
+        top:100px;
+        left:20vw;
+        box-shadow: -20px -20px 10px rgb(211, 207, 221);
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;}
+    
+  }
+
+.box1{
+    position: relative;
+    width:900px;
+    height:350px;
+    top:100px;
+    left:20vw;
+    box-shadow: -20px -20px 10px rgb(211, 207, 221);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.html .percent1{
+    animation: percent 2s;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+.css .percent1{
+    animation: percent 2s ease-in-out;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+.javascript .percent1{
+    animation: percent 2s;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+
+.bootstrap .percent1{
+    animation: percent 2s ease-in-out;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+
+.dbms .percent1{
+    animation: percent 2s;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+.react .percent1{
+    animation: percent 2s ease-in-out;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+.cpp .percent1{
+    animation: percent 2s ;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+.c .percent1{
+    animation: percent 2s ease-in-out;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+
+.sql .percent1{
+    animation: percent 2s;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+
+.ui .percent1{
+    animation: percent 2s ease-in-out;
+    position: relative;
+    top:-4px;
+    left:280px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+@keyframes percent {
+    0%{
+        left:0px;
+    }
+
+    60%{
+        left:300px;
+    }
+}
+
+
+
+
+
+
+.skill{
+    margin: 0px;
+    position: relative;
+    left:300px;
+    color:rgb(11, 29, 15);
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    padding:5px;
+}
+
+.skills2{
+    font-family: 'Philosopher', sans-serif;
+    display: block;
+    position:relative;
+    bottom: 293px;
+    left:490px;
+    padding: 20px;
+}
+
+.skills{
+    font-family: 'Philosopher', sans-serif;
+    position: relative;
+    margin: 0px;
+    padding:20px;
+ 
+}
+.item{
+    padding: 10px;
+}
+
+
+ .html{
+   height:10px;
+   background-color: tomato;
+   width:30%;
+   animation: html 2s;
+}
+
+.css{
+    height:10px;
+    background-color: tomato;
+    width:30%;
+    animation: css 2s;
+ }
+ .javascript{
+    height:10px;
+    background-color: tomato;
+    width:20%;
+    animation: javascript 2s;
+ }
+
+ .bootstrap{
+    height:10px;
+    background-color: tomato;
+    width:20%;
+    animation: bootstrap 2s;
+ }
+
+ .dbms{
+    height:10px;
+    background-color: tomato;
+    width:30%;
+    animation: dbms 2s;
+ }
+@keyframes html {
+0%{
+    width: 0%;
+}
+100%{
+    width: 30%;
+}
+    
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+        
+    }
+
+
+    @keyframes javascript {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 20%;
+        }
+            
+        }
+
+    
+        @keyframes bootstrap{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 20%;
+            }
+                
+            }
+
+
+            @keyframes dbms {
+                0%{
+                    width: 0%;
+                }
+                100%{
+                    width: 30%;
+                }
+                    
+                }
+
+
+                .react{
+                    height:10px;
+                    background-color: tomato;
+                    width:10%;
+                    animation: react 2s;
+                 }
+                 
+                 .cpp{
+                     height:10px;
+                     background-color: tomato;
+                     width:30%;
+                     animation: cpp 2s;
+                  }
+                  .c{
+                     height:10px;
+                     background-color: tomato;
+                     width:30%;
+                     animation: c 2s;
+                  }
+                 
+                  .sql{
+                     height:10px;
+                     background-color: tomato;
+                     width:30%;
+                     animation: sql 2s;
+                  }
+                 
+                  .ui{
+                     height:10px;
+                     background-color: tomato;
+                     width:25%;
+                     animation: ui 2s;
+                  }
+
+                 @keyframes react {
+                 0%{
+                     width: 0%;
+                 }
+                 100%{
+                     width: 10%;
+                 }
+                     
+                 }
+                 @keyframes cpp {
+                     0%{
+                         width: 0%;
+                     }
+                     100%{
+                         width: 30%;
+                     }
+                         
+                     }
+                 
+                 
+                     @keyframes c {
+                         0%{
+                             width: 0%;
+                         }
+                         100%{
+                             width: 30%;
+                         }
+                             
+                         }
+                 
+                     
+                         @keyframes sql{
+                             0%{
+                                 width: 0%;
+                             }
+                             100%{
+                                 width: 30%;
+                             }
+                                 
+                             }
+                 
+                 
+                             @keyframes ui {
+                                 0%{
+                                     width: 0%;
+                                 }
+                                 100%{
+                                     width: 25%;
+                                 }
+                                     
+                                 }
+    
+
+
+.box2{
+    position: relative;
+    top:50px;
+    left:19vw;
+    height:500px;
+    width:281px;
+    background-image: url('abhishek.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 30px 20px 12px black;
+    border-radius: 70px;
+    transition: 1s;
+ }
+
+
+ .box1:hover{
+    height:350px;
+    width:950px;
+    box-shadow: 40px 40px 20px rgb(59, 59, 59);
+ }
+
+ .box2:hover{
+    height:550px;
+    width:308px;
+    box-shadow: 40px 30px 20px black;
+ }
+
+ .boxes{
+     display: inline-flex;
+ }
+ 
+ #section2{
+    height:100vh;
+   
+    background-image: linear-gradient(45deg, red,#15dfdb,red);
+    font-size: 3rem;
+    font-family: 'Sansita', sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+         
+    width: 100%;
+}
+#section1{
+    height:100vh;
+    background-image: url('dryleaf.jpg');
+    font-size: 3rem;
+    font-family: 'Sansita', sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.navigation3 ul{
+    display:flex;
+    list-style: none;
+}
+.navigation3 ul li{
+    margin:0;
+    padding:3px 10px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 25px;
+    border-width: 20px;
+    
+}
+
+
+.navigation3 ul li a{
+    text-decoration: none;
+    color: rgb(233, 221, 221);
+    font-weight:bold;
+}
+
+.navigation3 ul li a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    border: aqua;
+    border-radius: 10px;
+}
+
+.navigation2 ul{
+    display:flex;
+    list-style: none;
+}
+.navigation2 ul li{
+    margin:0;
+    padding:3px 10px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 25px;
+    border-width: 40px;
+    
+}
+
+
+.navigation2 ul li a{
+    text-decoration: none;
+    color: rgb(233, 221, 221);
+    font-weight:bold;
+}
+
+.navigation2 ul li a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 10px;
+    border: aqua;
+}
